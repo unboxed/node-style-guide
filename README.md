@@ -1,4 +1,4 @@
-# [Unboxes](http://unboxed.com) Node.js Style Guide() {
+# [Unboxed's](http://unboxedconsulting.com) Node.js Style Guide() {
 
 ### Most of the content is taken from the [RisingStack styleguide](https://github.com/RisingStack/node-style-guide)
 
