@@ -474,7 +474,7 @@ Heavily inspired by them as well:
 
   - Do not use the `.js` when requiring modules
 
-  ```javascript
+ ```javascript
     // bad
     var Batmobil = require('./models/Car.js');
 
@@ -482,6 +482,24 @@ Heavily inspired by them as well:
     var Batmobil = require('./models/Car');
 
   ```
+  
+  
+### File Conventions
+
+- Name your module files using all lower case.
+- Use dashes for separating words
+
+	```javascript
+		// bad - osx is case insesitive but linux is not
+		require('./someModule');
+		
+		// bad
+		require('./somemodule');
+		
+		// good - all lower case and much less error prone
+		require('./some-module');
+	```
+  
 
 
 **[⬆ back to top](#table-of-contents)**
